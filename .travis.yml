@@ -6,4 +6,4 @@ before_install:
   - docker run -t salilchhetri/docker-kubernetes -f Dockerfile.dev .
 
 script:
-  - docker run -it salilchhetri/docker-kubernetes npm run test
+  - docker run salilchhetri/docker-kubernetes npm run test

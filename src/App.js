@@ -19,6 +19,7 @@ class App extends Component {
           >
             Dockerized React App!
           </a>
+          <p>I'm from a feature branch</p>
         </header>
       </div>
     );

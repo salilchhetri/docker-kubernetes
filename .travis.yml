@@ -8,7 +8,7 @@ before_install:
 script:
   - docker run salilchhetri/docker-kubernetes npm run test -- --coverage
 
-  deploy:
+deploy:
   provider: heroku
   api_key:
     secure: $HEROKU_API_KEY

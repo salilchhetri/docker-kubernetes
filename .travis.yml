@@ -13,5 +13,5 @@ deploy:
   api_key:
     secure: $HEROKU_API_KEY
   app:
-    master: docker-kubernetes-prod
+    master: docker-kubernetes
   on: master

@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Dockerized React App!
+            Dockerized React App!.. Hello
           </a>
           <p>I'm from a feature branch</p>
         </header>
